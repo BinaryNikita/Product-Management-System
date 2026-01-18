@@ -1,0 +1,235 @@
+Base URL
+http://localhost:8080/api/products
+
+1. Create Product
+POST /api/products
+Request Body
+{
+  "name": "Red T-Shirt",
+  "description": "Comfort cotton t-shirt",
+  "price": 199.99,
+  "stock": 50,
+  "sku": "TSHIRT_RED_001"
+}
+
+Response 201 Created
+{
+  "id": 1,
+  "name": "Red T-Shirt",
+  "description": "Comfort cotton t-shirt",
+  "price": 199.99,
+  "stock": 50,
+  "sku": "TSHIRT_RED_001",
+  "createdAt": "2025-12-09T10:34:48.329073Z",
+  "updatedAt": "2025-12-09T10:34:48.329073Z"
+}
+
+2. Get Product by ID
+GET /api/products/{id}
+Example Response
+{
+  "id": 7,
+  "name": "Product 4",
+  "description": "Description for product 4",
+  "price": 493.67,
+  "stock": 70,
+  "sku": "SKU0004",
+  "createdAt": "2025-12-01T10:09:10.50661Z",
+  "updatedAt": "2025-12-09T10:44:54.754926Z"
+}
+
+3. Get All Products (Paginated + Sorted)
+GET /api/products?page=0&size=10&sort=name,asc
+Response Structure
+
+Top-level fields come directly from Spring Data Page object.
+
+Example Response
+{
+  "content": [
+    {
+      "id": 1,
+      "name": "Red T-Shirt",
+      "description": "Comfort cotton t-shirt",
+      "price": 199.99,
+      "stock": 50,
+      "sku": "TSHIRT_RED_001",
+      "createdAt": "2025-12-09T10:34:48.329073Z",
+      "updatedAt": "2025-12-09T10:34:48.329073Z"
+    },
+    {
+      "id": 2,
+      "name": "Blue Jeans",
+      "description": "Denim blue jeans",
+      "price": 899.00,
+      "stock": 20,
+      "sku": "JEANS_BLUE_01",
+      "createdAt": "2025-12-09T10:34:48.329073Z",
+      "updatedAt": "2025-12-09T10:34:48.329073Z"
+    },
+    {
+      "id": 3,
+      "name": "Mouse",
+      "description": "B100",
+      "price": 450.99,
+      "stock": 8,
+      "sku": "88MU",
+      "createdAt": "2025-12-09T10:40:48.610552Z",
+      "updatedAt": "2025-12-09T12:01:19.57042Z"
+    },
+    {
+      "id": 4,
+      "name": "Product 1",
+      "description": "Description for product 1",
+      "price": 931.30,
+      "stock": 38,
+      "sku": "SKU0001",
+      "createdAt": "2025-12-02T16:16:48.764392Z",
+      "updatedAt": "2025-12-09T10:44:54.754926Z"
+    },
+    {
+      "id": 5,
+      "name": "Product 2",
+      "description": "Description for product 2",
+      "price": 415.62,
+      "stock": 78,
+      "sku": "SKU0002",
+      "createdAt": "2025-12-06T20:12:42.369959Z",
+      "updatedAt": "2025-12-09T10:44:54.754926Z"
+    },
+    {
+      "id": 6,
+      "name": "Product 3",
+      "description": "Description for product 3",
+      "price": 164.84,
+      "stock": 80,
+      "sku": "SKU0003",
+      "createdAt": "2025-11-14T17:41:47.040183Z",
+      "updatedAt": "2025-12-09T10:44:54.754926Z"
+    },
+    {
+      "id": 7,
+      "name": "Product 4",
+      "description": "Description for product 4",
+      "price": 493.67,
+      "stock": 70,
+      "sku": "SKU0004",
+      "createdAt": "2025-12-01T10:09:10.50661Z",
+      "updatedAt": "2025-12-09T10:44:54.754926Z"
+    },
+    {
+      "id": 8,
+      "name": "Product 5",
+      "description": "Description for product 5",
+      "price": 871.57,
+      "stock": 88,
+      "sku": "SKU0005",
+      "createdAt": "2025-12-07T02:28:03.003873Z",
+      "updatedAt": "2025-12-09T10:44:54.754926Z"
+    },
+    {
+      "id": 9,
+      "name": "Product 6",
+      "description": "Description for product 6",
+      "price": 684.87,
+      "stock": 81,
+      "sku": "SKU0006",
+      "createdAt": "2025-11-13T14:37:01.227852Z",
+      "updatedAt": "2025-12-09T10:44:54.754926Z"
+    },
+    {
+      "id": 10,
+      "name": "Product 7",
+      "description": "Description for product 7",
+      "price": 759.07,
+      "stock": 90,
+      "sku": "SKU0007",
+      "createdAt": "2025-12-02T21:59:24.43947Z",
+      "updatedAt": "2025-12-09T10:44:54.754926Z"
+    }
+  ],
+  "pageable": {
+    "pageNumber": 0,
+    "pageSize": 10,
+    "sort": {
+      "sorted": true,
+      "empty": false,
+      "unsorted": false
+    },
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalPages": 11,
+  "totalElements": 103,
+  "last": false,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "sorted": true,
+    "empty": false,
+    "unsorted": false
+  },
+  "numberOfElements": 10,
+  "first": true,
+  "empty": false
+}
+
+4. Update Product
+PUT /api/products/{id}
+Request Body
+{
+  "name": "Mouse",
+  "description": "Updated B100",
+  "price": 500.99,
+  "stock": 10,
+  "sku": "88MU"
+}
+
+Response
+
+Same structure as GET by ID:
+
+{
+  "id": 3,
+  "name": "Mouse",
+  "description": "Updated B100",
+  "price": 500.99,
+  "stock": 10,
+  "sku": "88MU",
+  "createdAt": "2025-12-09T10:40:48.610552Z",
+  "updatedAt": "2025-12-09T12:10:19.57042Z"
+}
+
+5. Delete Product
+DELETE /api/products/{id}
+Response
+response status 204 
+
+6. Search Products by Name
+GET /api/products/search?query=mouse&page=0&size=10
+Response
+
+Same Page structure as Get All.
+
+7. Data Model (As per your actual DB + JSON)
+Product Object
+{
+  "id": 1,
+  "name": "string",
+  "description": "string",
+  "price": 0.0,
+  "stock": 0,
+  "sku": "string",
+  "createdAt": "ISO timestamp",
+  "updatedAt": "ISO timestamp"
+}
+
+8. Validation Rules
+Field	Required	Rules
+name	Yes	min 2 chars
+description	Yes	min 5 chars
+price	Yes	> 0
+stock	Yes	>= 0
+sku	Yes	unique
+

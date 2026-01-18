@@ -1,0 +1,186 @@
+2025-12-23 16:20:36.287 - DBeaver 25.3.0.202511301802 is starting
+2025-12-23 16:20:36.288 - OS: Linux 6.8.0-90-generic (amd64)
+2025-12-23 16:20:36.288 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2025-12-23 16:20:36.288 - Install path: '/snap/dbeaver-ce/418/usr/share/dbeaver-ce'
+2025-12-23 16:20:36.289 - Instance path: 'file:/home/ubuntu/Documents/Learning/CRUD_APPS/product_crud/'
+2025-12-23 16:20:36.294 - Memory available 64Mb/1024Mb
+2025-12-23 16:20:36.317 - Create display
+SWT SessionManagerDBus: Failed to RegisterClient: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.167" (uid=1000 pid=184336 comm="/snap/dbeaver-ce/418/usr/share/dbeaver-ce/jre/bin/" label="snap.dbeaver-ce.dbeaver-ce (enforce)") interface="org.gnome.SessionManager" member="RegisterClient" error name="(unset)" requested_reply="0" destination=":1.32" (uid=1000 pid=2670 comm="/usr/libexec/gnome-session-binary --systemd-servic" label="unconfined")
+2025-12-23 16:20:36.603 - Initialize desktop platform...
+2025-12-23 16:20:36.856 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
+> Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
+> Start Team Support Core [org.eclipse.team.core 3.10.900.v20251104-0924]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.168.202511301802]
+> Start JFace Text [org.eclipse.jface.text 3.29.0.v20251112-0859]
+2025-12-23 16:20:37.330 - Initialize base platform...
+2025-12-23 16:20:37.358 - Platform initialized (755ms)
+2025-12-23 16:20:37.448 - Starting instance server at http://localhost:38625
+2025-12-23 16:20:37.467 - Run workbench
+> Start Eclipse IDE UI [org.eclipse.ui.ide 3.22.800.v20251112-0859]
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.900.v20251023-1511]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.800.v20250916-0937]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.700.v20250916-0927]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250910-1205]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.600.v20251023-0615]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.900.v20251007-0832]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.1000.v20251114-0005]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.11.202511301802]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.70.202511301802]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.700.v20251023-1511]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.700.v20250622-1644]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.500.v20250611-0855]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
+2025-12-23 16:20:40.496 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.158.202511301802]
+2025-12-23 16:20:40.773 - Total database drivers: 126 (126)
+> Start Help System Core [org.eclipse.help 3.10.600.v20250613-0437]
+2025-12-23 16:20:40.939 - Create actions
+> Start Default Text Editor [org.eclipse.ui.editors 3.20.200.v20251103-1510]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
+2025-12-23 16:20:42.643 - Initialize workbench window
+2025-12-23 16:20:42.665 - Finish initialization
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.168.202511301802]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.165.202511301802]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202511181644]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511140645]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.9.202511301802]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.9.202511301802]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.168.202511301802]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.205.202511301802]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.61.202511301802]
+> Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.254.202511301802]
+> Start DBeaver SQLite Model [org.jkiss.dbeaver.ext.sqlite 1.0.217.202511301802]
+2025-12-23 16:21:14.110 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver PostgreSQL UI [org.jkiss.dbeaver.ext.postgresql.ui 1.0.144.202511301802]
+> Start DBeaver PostgreSQL Model [org.jkiss.dbeaver.ext.postgresql 2.1.241.202511301802]
+2025-12-23 16:21:35.554 - Unable to examine folder /etc/alternatives while looking for a client home
+java.nio.file.AccessDeniedException: /etc/alternatives
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.asIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(Unknown Source)
+	at java.base/java.nio.file.Files.newDirectoryStream(Unknown Source)
+	at java.base/java.nio.file.FileTreeWalker.visit(Unknown Source)
+	at java.base/java.nio.file.FileTreeWalker.walk(Unknown Source)
+	at java.base/java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.base/java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.jkiss.dbeaver.model.connection.NativeClientLocationUtils.findLocalClientsOnUnix(NativeClientLocationUtils.java:67)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.findLocalClients(PostgreDataSourceProvider.java:193)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.findLocalClientLocations(PostgreDataSourceProvider.java:142)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.getDefaultLocalClientLocation(PostgreDataSourceProvider.java:147)
+	at org.jkiss.dbeaver.registry.driver.DriverDescriptor.getDefaultClientLocation(DriverDescriptor.java:1374)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionWizard.getActiveDataSource(ConnectionWizard.java:132)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.getActiveDataSource(ConnectionPageSettings.java:875)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.getDialogPages(ConnectionPageSettings.java:959)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.createProviderPage(ConnectionPageSettings.java:271)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.activatePage(ConnectionPageSettings.java:171)
+	at org.jkiss.dbeaver.ui.dialogs.ActiveWizardPage.setVisible(ActiveWizardPage.java:70)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1253)
+	at org.eclipse.jface.wizard.WizardDialog.lambda$3(WizardDialog.java:1225)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1225)
+	at org.jkiss.dbeaver.ui.dialogs.ActiveWizardDialog.showPage(ActiveWizardDialog.java:101)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:921)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:470)
+	at org.jkiss.dbeaver.ui.dialogs.connection.NewConnectionDialog.buttonPressed(NewConnectionDialog.java:82)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:617)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:83)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:290)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5894)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1656)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4546)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:824)
+	at org.eclipse.jface.window.Window.open(Window.java:804)
+	at org.jkiss.dbeaver.ui.dialogs.connection.NewConnectionDialog.open(NewConnectionDialog.java:105)
+	at org.jkiss.dbeaver.ui.dialogs.connection.NewConnectionDialog.openNewConnectionDialog(NewConnectionDialog.java:140)
+	at org.jkiss.dbeaver.ui.dialogs.connection.NewConnectionDialog.openNewConnectionDialog(NewConnectionDialog.java:121)
+	at org.jkiss.dbeaver.ui.dialogs.connection.NewConnectionDialog.openNewConnectionDialog(NewConnectionDialog.java:113)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceCreateHandler.execute(DataSourceCreateHandler.java:32)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:305)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:237)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:484)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:446)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:471)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:493)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5894)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1656)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4546)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:313)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:924)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:658)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1693)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.main(DBeaverLauncher.java:1666)
+2025-12-23 16:21:35.632 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-12-23 16:21:35.718 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-12-23 16:21:59.187 - Open [https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.pom]
+2025-12-23 16:21:59.512 - Open [https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom]
+2025-12-23 16:21:59.577 - Open [https://repo1.maven.org/maven2/net/postgis/postgis-jdbc/2.5.0/postgis-jdbc-2.5.0.pom]
+2025-12-23 16:21:59.618 - Open [https://repo1.maven.org/maven2/net/postgis/postgis-java-aggregator/2.5.0/postgis-java-aggregator-2.5.0.pom]
+2025-12-23 16:21:59.675 - Open [https://repo1.maven.org/maven2/org/testcontainers/testcontainers-bom/1.13.0/testcontainers-bom-1.13.0.pom]
+2025-12-23 16:21:59.730 - Open [https://repo1.maven.org/maven2/net/postgis/postgis-geometry/2.5.0/postgis-geometry-2.5.0.pom]
+2025-12-23 16:21:59.784 - Open [https://repo1.maven.org/maven2/com/github/waffle/waffle-jna/1.9.1/waffle-jna-1.9.1.pom]
+2025-12-23 16:21:59.838 - Open [https://repo1.maven.org/maven2/com/github/waffle/waffle-parent/1.9.1/waffle-parent-1.9.1.pom]
+2025-12-23 16:21:59.911 - Open [https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.1/jna-4.5.1.pom]
+2025-12-23 16:21:59.956 - Open [https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.pom]
+2025-12-23 16:21:59.997 - Open [https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.pom]
+2025-12-23 16:22:00.039 - Open [https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom]
+2025-12-23 16:22:00.111 - Open [https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom]
+2025-12-23 16:22:00.152 - Open [https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.6.2/caffeine-2.6.2.pom]
+2025-12-23 16:22:09.392 - Open [https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar]
+2025-12-23 16:22:09.694 - Open [https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar]
+2025-12-23 16:22:09.778 - Open [https://repo1.maven.org/maven2/net/postgis/postgis-jdbc/2.5.0/postgis-jdbc-2.5.0.jar]
+2025-12-23 16:22:09.853 - Open [https://repo1.maven.org/maven2/net/postgis/postgis-geometry/2.5.0/postgis-geometry-2.5.0.jar]
+2025-12-23 16:22:09.923 - Open [https://repo1.maven.org/maven2/com/github/waffle/waffle-jna/1.9.1/waffle-jna-1.9.1.jar]
+2025-12-23 16:22:09.986 - Open [https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar]
+2025-12-23 16:22:10.229 - Open [https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar]
+2025-12-23 16:22:10.554 - Open [https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar]
+2025-12-23 16:22:10.611 - Open [https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar]
+2025-12-23 16:22:10.673 - Open [https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.6.2/caffeine-2.6.2.jar]
+2025-12-23 16:22:10.900 - Connect with 'postgres' (postgres-jdbc-19b4ad5f7a2-11b4b38085ba333a)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.192.202511301802]
+2025-12-23 16:22:11.012 - Execution context opened (postgres; Main <productdb>; 0)
+2025-12-23 16:22:11.017 - Initiate connection to PostgreSQL database [productdb@localhost] for Main <productdb>
+2025-12-23 16:22:11.309 - Execution context opened (postgres; Metadata <productdb>; 1)
+2025-12-23 16:22:11.310 - Initiate connection to PostgreSQL database [productdb@localhost] for Metadata <productdb>
+2025-12-23 16:22:11.448 - Connected (postgres-jdbc-19b4ad5f7a2-11b4b38085ba333a, PostgreSQL JDBC Driver [42.7.2])
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.63.202511301802]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.144.202511301802]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.800.v20250718-1505]
+> Start Console [org.eclipse.ui.console 3.15.0.v20251113-1013]
+> Start Debug Core [org.eclipse.debug.core 3.23.200.v20251107-0507]
+2025-12-23 16:23:24.253 - Execution context opened (Product_Db; SQLEditor <Script.sql>; 2)
+2025-12-23 16:23:24.254 - Initiate connection to PostgreSQL database [productdb@localhost] for SQLEditor <Script.sql>
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.146.202511301802]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.146.202511301802]
